@@ -7,7 +7,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                   {x: 71.5, y: 3678},
                 ],
                 label: "China",
-                borderColor: "#3e95cd",
+                borderColor: "#000000",
                 backgroundColor: "rgb(62,149,205,0.1)",
                 borderWidth:2,
                
@@ -25,7 +25,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 {x: 77.1, y: 45986},
                 ],
                 label: "US",
-                borderColor: "#ffa500",
+                borderColor: "#000000",
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
@@ -34,7 +34,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 {x: 68.3, y: 5878},
                 ],
                 label: "Indonesia",
-                borderColor: "#ffa500",
+                borderColor: "#000000",
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
@@ -43,7 +43,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 {x: 71.9, y: 11461},
                 ],
                 label: "Brazil",
-                borderColor: "#ffa500",
+                borderColor: "#000000",
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
@@ -52,7 +52,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 {x: 65.4, y: 13173},
                 ],
                 label: "Russia",
-                borderColor: "#ffa500",
+                borderColor: "#000000",
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
@@ -61,7 +61,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 {x: 61.6, y: 3366},
                 ],
                 label: "Pakistan",
-                borderColor: "#ffa500",
+                borderColor: "#000000",
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
@@ -70,7 +70,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 {x: 65.8, y: 1632},
                 ],
                 label: "Bangladesh",
-                borderColor: "#ffa500",
+                borderColor: "#000000",
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
@@ -79,7 +79,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 {x: 81.1, y: 32193},
                 ],
                 label: "Japan",
-                borderColor: "#ffa500",
+                borderColor: "#000000",
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
