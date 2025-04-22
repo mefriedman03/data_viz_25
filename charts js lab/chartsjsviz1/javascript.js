@@ -7,7 +7,7 @@ var myChart = new Chart(ctx, {
             label: 'Games Played',
             data: [1, 1, 3, 18],
             backgroundColor: [
-                '#ff0800'
+                '#0000FF'
             ]
         },
         {
@@ -24,14 +24,14 @@ var myChart = new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: 'Apples and Oranges by year',
+                text: 'Alyssa Naeher played in the most games and had the most shutouts in 2024. ',
                 font: {
                     size: 18
                 }
             },
             subtitle: {
                 display: true,
-                text: 'For all but one year, oranges outnumbered apples'
+                text: 'Both goalkeepers who played in only one game had shutouts. '
             }
         },
         scales: {
