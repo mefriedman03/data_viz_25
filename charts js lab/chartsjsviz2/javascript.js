@@ -3,10 +3,10 @@ var myChart = new Chart(ctx, {
     type: 'line',
 
     data: {
-        labels: ['2015', '2016', '2017', '2018', '2019', '2020'],
+        labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
         datasets: [{
-            label: '# of Apples',
-            data: [12, 19, 3, 5, 2, 3],
+            label: '# Goals',
+            data: [7, 17, 7, 18, 9, 0, 8, 4, 2, 2],
             fill: true,
             borderColor: 'rgba(255, 8, 0)',
             backgroundColor: 'rgba(255, 8, 0, 0.1)',
