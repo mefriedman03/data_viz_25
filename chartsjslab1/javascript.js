@@ -87,13 +87,24 @@ var ctx = document.getElementById('myChart').getContext('2d');
             ]
           },
           options: {
-            title: {
-              display: true,
-              text: 'Apples and Oranges by year',
-              font: {
-                  size: 18
-              }
-          },
+              plugins: {
+                  title: {
+                      display: true,
+                      text: 'Countries with higher GDP per capita tend to have higher life expectancies', 
+                      font: {
+                          size: 18
+                      }
+                  },
+                  subtitle: {
+                      display: true,
+                      text: 'The United States has the highest GDP per capita in the world and second-highest life expectancy at 77.1 years.', 
+                      font: {
+                          size: 14
+                      },
+                      color: '#666'
+                  }
+              },
+  
             scales: {
               y: {
                 title: {
