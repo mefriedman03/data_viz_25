@@ -9,14 +9,12 @@ var myChart = new Chart(ctx, {
             data: [7, 17, 7, 18, 9, 0, 8, 4, 2, 2],
             fill: true,
             borderColor: 'rgba(255, 8, 0)',
-            backgroundColor: 'rgba(255, 8, 0, 0.1)',
             tension: 0.1},
             {
             label: '# Assists',
             data: [0, 3, 2, 3, 3, 0, 2, 1, 4, 1],
             fill: true,
-            borderColor: 'rgba(255, 8, 0)',
-            backgroundColor: 'rgba(255, 8, 0, 0.1)',
+            borderColor: 'rgba(30,144,255)',
             tension: 0.1},
         ]
     },
