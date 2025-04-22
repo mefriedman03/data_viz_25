@@ -16,7 +16,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                   {x: 61.1, y: 2548},
                 ],
                 label: "India",
-                borderColor: "#3cba9f",
+                borderColor: "#000000",
                 backgroundColor: "rgb(60,186,159,0.1)",
                 borderWidth:2,
                 
