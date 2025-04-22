@@ -18,14 +18,14 @@ var myChart = new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: 'Apples and Oranges by year',
+                text: 'Countries in Europe and Cantral Asia have the highest average GDPs per capita',
                 font: {
                     size: 18
                 }
             },
             subtitle: {
                 display: true,
-                text: 'For all but one year, oranges outnumbered apples'
+                text: 'Countries in South Asia and Sub-Saharan Africa have average GDPs per capita below $3,000.   '
             }
         },
         scales: {
