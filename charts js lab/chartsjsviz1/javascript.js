@@ -7,14 +7,14 @@ var myChart = new Chart(ctx, {
             label: 'Games Played',
             data: [1, 1, 3, 18],
             backgroundColor: [
-                '#0000FF'
+                '#ff0800'
             ]
         },
         {
             label: 'Shutouts',
             data: [1, 1, 2, 10],
             backgroundColor: [
-                '#FFA500'
+                '#0000FF'
             ],
         }
     ]
