@@ -21,14 +21,14 @@ var myChart = new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: 'Apples and Oranges by year',
+                text: 'Alex Morgan scored her most goals in a year in 2018 with 18 goals',
                 font: {
                     size: 18
                 }
             },
             subtitle: {
                 display: true,
-                text: 'For all but one year, oranges outnumbered apples'
+                text: '2023 was the only year in the past 10 years that Alex Morgan had more assists than goals'
             }
         },
         scales: {
