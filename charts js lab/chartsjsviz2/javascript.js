@@ -7,12 +7,12 @@ var myChart = new Chart(ctx, {
         datasets: [{
             label: '# Goals',
             data: [7, 17, 7, 18, 9, 0, 8, 4, 2, 2],
-            fill: true,
+            fill: false,
             borderColor: 'rgba(255, 8, 0)'},
             {
             label: '# Assists',
             data: [0, 3, 2, 3, 3, 0, 2, 1, 4, 1],
-            fill: true,
+            fill: false,
             borderColor: 'rgba(30,144,255)'},
         ]
     },
