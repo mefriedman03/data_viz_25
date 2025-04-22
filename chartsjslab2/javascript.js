@@ -10,13 +10,7 @@ var myChart = new Chart(ctx, {
                 '#ff0800'
             ]
         },
-        {
-            label: '# of Oranges',
-            data: [22, 10, 23, 6, 22, 13],
-            backgroundColor: [
-                '#FFA500'
-            ],
-        }
+
     ]
     },
     options: {
