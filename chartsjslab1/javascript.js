@@ -29,7 +29,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
-              }{ 
+              },{ 
                 data: [
                 {x: 68.3, y: 5878},
                 ],
@@ -38,7 +38,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
-              }{ 
+              },{ 
                 data: [
                 {x: 71.9, y: 11461},
                 ],
@@ -47,7 +47,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
-              }{ 
+              },{ 
                 data: [
                 {x: 65.4, y: 13173},
                 ],
@@ -56,7 +56,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
-              }{ 
+              },{ 
                 data: [
                 {x: 61.6, y: 3366},
                 ],
@@ -65,7 +65,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
-              }{ 
+              },{ 
                 data: [
                 {x: 65.8, y: 1632},
                 ],
@@ -74,8 +74,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 backgroundColor:"rgb(255,165,0,0.1)",
                 borderWidth:2,
                 
-              }
-              { 
+              },{ 
                 data: [
                 {x: 81.1, y: 32193},
                 ],
