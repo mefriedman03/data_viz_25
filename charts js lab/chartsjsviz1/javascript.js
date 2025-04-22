@@ -2,17 +2,17 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['2015', '2016', '2017', '2018', '2019', '2020'],
+        labels: ['Jane Campbelle', 'Mandy Haught', 'Casey Murphy', 'Alyssa Naeher'],
         datasets: [{
-            label: '# of Apples',
-            data: [12, 19, 3, 5, 2, 3],
+            label: 'Games Played',
+            data: [1, 1, 3, 18],
             backgroundColor: [
                 '#ff0800'
             ]
         },
         {
-            label: '# of Oranges',
-            data: [22, 10, 23, 6, 22, 13],
+            label: 'Shutouts',
+            data: [1, 1, 2, 10],
             backgroundColor: [
                 '#FFA500'
             ],
