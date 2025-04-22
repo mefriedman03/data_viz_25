@@ -87,6 +87,13 @@ var ctx = document.getElementById('myChart').getContext('2d');
             ]
           },
           options: {
+            title: {
+              display: true,
+              text: 'Apples and Oranges by year',
+              font: {
+                  size: 18
+              }
+          },
             scales: {
               y: {
                 title: {
