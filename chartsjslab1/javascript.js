@@ -91,13 +91,13 @@ var ctx = document.getElementById('myChart').getContext('2d');
               y: {
                 title: {
                   display: true,
-                  text: 'Y axis title'
+                  text: 'GDP per Capita'
                 }
               },
               x: {
                   title: {
                       display: true,
-                      text: 'X axis title'
+                      text: 'Life Expectancy'
                   }
               }
             }
