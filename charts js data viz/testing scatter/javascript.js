@@ -13,23 +13,42 @@ var ctx = document.getElementById('myChart').getContext('2d');
                
               }, { 
                 data: [
-                  {x: 61.1, y: 2548},
-                ],
-                label: "India",
-                borderColor: "#3cba9f",
-                backgroundColor: "rgb(60,186,159,0.1)",
-                borderWidth:2,
+                    {x: 0, y: 2},
+                  ],
+                  label: "Sam Coffey",
+                  borderColor: "#3cba9f",
+                  backgroundColor: "rgb(60,186,159,0.1)",
+                  borderWidth:2,
                 
               }, { 
                 data: [
-                {x: 77.1, y: 45986},
-                ],
-                label: "US",
-                borderColor: "#ffa500",
-                backgroundColor:"rgb(255,165,0,0.1)",
-                borderWidth:2,
+                    {x: 2, y: 0},
+                    ],
+                    label: "Tierna Davidson",
+                    borderColor: "#ffa500",
+                    backgroundColor:"rgb(255,165,0,0.1)",
+                    borderWidth:2,
+                
+              }, { 
+                data: [
+                    {x: 1, y: 1},
+                    ],
+                    label: "Crystal Dunn",
+                    borderColor: "#ffa500",
+                    backgroundColor:"rgb(255,165,0,0.1)",
+                    borderWidth:2,
+                
+              },{ 
+                data: [
+                    {x: 0, y: 1},
+                    ],
+                    label: "Emily Fox",
+                    borderColor: "#ffa500",
+                    backgroundColor:"rgb(255,165,0,0.1)",
+                    borderWidth:2,
                 
               }
+
             ]
           },
           options: {
