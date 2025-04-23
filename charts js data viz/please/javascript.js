@@ -5,18 +5,18 @@ var ctx = document.getElementById('myChart').getContext('2d');
           data: {
             datasets: [{ 
                 data: [
-                  {x: 71.5, y: 3678},
+                  {x: 1, y: 1},
                 ],
-                label: "China",
+                label: "Korbin Albert",
                 borderColor: "#3e95cd",
                 backgroundColor: "rgb(62,149,205,0.1)",
                 borderWidth:2,
                
               }, { 
                 data: [
-                  {x: 61.1, y: 2548},
+                  {x: 0, y: 2},
                 ],
-                label: "India",
+                label: "Sam Coffey",
                 borderColor: "#3cba9f",
                 backgroundColor: "rgb(60,186,159,0.1)",
                 borderWidth:2,
