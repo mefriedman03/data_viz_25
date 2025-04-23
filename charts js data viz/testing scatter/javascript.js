@@ -4,9 +4,9 @@ var ctx = document.getElementById('myChart').getContext('2d');
           data: {
             datasets: [{ 
                 data: [
-                  {x: 71.5, y: 3678},
+                  {x: 1, y: 1},
                 ],
-                label: "China",
+                label: "Korbin ALbert",
                 borderColor: "#3e95cd",
                 backgroundColor: "rgb(62,149,205,0.1)",
                 borderWidth:2,
