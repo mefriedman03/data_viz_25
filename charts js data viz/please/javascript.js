@@ -193,17 +193,31 @@ var ctx = document.getElementById('myChart').getContext('2d');
             ]
           },
           options: {
+            plugins: {
+                legend:{
+                    display:false},
+                title: {
+                    display: true,
+                    text: 'Sophia Smith and Mallory Swanson were tied for most assists in 2024, but Smith surpassed Swanson in goals',
+                    font: {
+                        size: 18
+                    }
+                },
+                subtitle: {
+                    display: true,
+                    text: 'Seven USWNNT players had at least one assist but never scored in 2024.'
+                },},
             scales: {
               y: {
                 title: {
                   display: true,
-                  text: 'Y axis title'
+                  text: 'Assists'
                 }
               },
               x: {
                   title: {
                       display: true,
-                      text: 'X axis title'
+                      text: 'Goals'
                   }
               }
             }
