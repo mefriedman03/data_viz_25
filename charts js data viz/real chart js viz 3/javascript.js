@@ -206,7 +206,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                     display:false},
                 title: {
                     display: true,
-                    text: 'Sophia Smith and Mallory Swanson were tied for most assists in 2024, but Smith surpassed Swanson in goals',
+                    text: 'Sophia Smith, Mallory Swanson and Trinity Rodman were tied for most assists in 2024, but Smith surpassed Swanson and Rodman in goals',
                     font: {
                         size: 18
                     }
