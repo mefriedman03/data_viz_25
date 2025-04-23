@@ -211,7 +211,19 @@ var ctx = document.getElementById('myChart').getContext('2d');
             ]
           },
           options: {
-            scales: {
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Alyssa Naeher played in the most games and had the most shutouts in 2024. ',
+                    font: {
+                        size: 18
+                    }
+                },
+                subtitle: {
+                    display: true,
+                    text: 'Both goalkeepers who played in only one game had shutouts. '
+                },},
+                scales: {
               y: {
                 title: {
                   display: true,
