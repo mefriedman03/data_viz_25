@@ -8,7 +8,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 ],
                 label: "Korbin ALbert",
                 borderColor: "#3e95cd",
-                backgroundColor: "rgb(62,149,205,0.1)",
+                backgroundColor: "rgb(255,165,0,0.1)",
                 borderWidth:2,
                
               }, { 
@@ -17,7 +17,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
                   ],
                   label: "Sam Coffey",
                   borderColor: "#3e95cd",
-                  backgroundColor: "rgb(60,186,159,0.1)",
+                  backgroundColor: "rgb(255,165,0,0.1)",
                   borderWidth:2,
                 
               }, { 
@@ -214,14 +214,14 @@ var ctx = document.getElementById('myChart').getContext('2d');
             plugins: {
                 title: {
                     display: true,
-                    text: 'Alyssa Naeher played in the most games and had the most shutouts in 2024. ',
+                    text: 'Sophia Smith and Mallory Swanson were tied for most assists in 2024, but Smith surpassed Swanson in goals',
                     font: {
                         size: 18
                     }
                 },
                 subtitle: {
                     display: true,
-                    text: 'Both goalkeepers who played in only one game had shutouts. '
+                    text: 'Seven USWNNT players had at least one assist but never scored in 2024.'
                 },},
                 scales: {
               y: {
