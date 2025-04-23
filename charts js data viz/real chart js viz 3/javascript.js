@@ -144,6 +144,14 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 borderColor: "#3e95cd",
                 borderWidth:2,
                 
+              },{ 
+                data: [
+                {x: 3, y: 4},
+                ],
+                label: "Trinity Rodman",
+                borderColor: "#3e95cd",
+                borderWidth:2,
+                
               },
               { 
                 data: [
